@@ -14,6 +14,14 @@
 | --- | --- | --- | --- |
 | 跨境Listing改写 | cross-border-listing-rewriter | WorkBuddy | 开发框架已完成，待开发 |
 
+## 开发方法
+
+开发新 skill 时可复用的方法，文档里有可直接复制进 SKILL.md 的模板。
+
+| 方法 | 解决什么问题 | 文档 |
+| --- | --- | --- |
+| 记忆锚定法（Memory Anchor） | 用户不 @ 技能时，WorkBuddy 不调用技能 | [methods/memory-anchor.md](methods/memory-anchor.md) |
+
 ## 新增一个 skill 时怎么加
 
 1. 在“已发布”表里加一行：名称、slug、平台、状态、版本、下载链接。
